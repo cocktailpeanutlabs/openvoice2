@@ -5,7 +5,8 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://huggingface.co/spaces/cocktailpeanut/ov2 app",
+          //"git clone https://huggingface.co/spaces/cocktailpeanut/ov2 app",
+          "git clone https://github.com/cocktailpeanut/ov2 app",
         ]
       }
     },
