@@ -15,6 +15,7 @@ module.exports = {
       params: {
         path: "app",
         message: [
+          "git lfs install",
           "git clone --depth 1 https://huggingface.co/cocktailpeanut/ov2 checkpoints"
         ]
       }
