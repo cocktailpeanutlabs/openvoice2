@@ -9,7 +9,7 @@ module.exports = {
         },
         message: [
           //"git clone https://huggingface.co/spaces/cocktailpeanut/ov2 app",
-          "git lfx install"
+          "git lfx install",
           "git clone https://github.com/cocktailpeanut/ov2 app",
         ]
       }
