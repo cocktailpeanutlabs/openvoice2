@@ -4,8 +4,12 @@ module.exports = {
     {
       method: "shell.run",
       params: {
+        env: {
+          "GIT_CLONE_PROTECTION_ACTIVE": "false"
+        },
         message: [
           //"git clone https://huggingface.co/spaces/cocktailpeanut/ov2 app",
+          "git lfx install"
           "git clone https://github.com/cocktailpeanut/ov2 app",
         ]
       }
@@ -14,6 +18,9 @@ module.exports = {
       method: "shell.run",
       params: {
         path: "app",
+        env: {
+          "GIT_CLONE_PROTECTION_ACTIVE": "false"
+        },
         message: [
           "git lfs install",
           "git clone --depth 1 https://huggingface.co/cocktailpeanut/ov2 checkpoints"
