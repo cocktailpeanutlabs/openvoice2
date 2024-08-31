@@ -52,7 +52,7 @@ module.exports = {
           "pip install git+https://github.com/peanutcocktail/OpenVoice.git",
           "pip install git+https://github.com/peanutcocktail/MeloTTS.git",
           "python -m unidic download",
-          "pip install whisper-timestamped==1.15.4",
+          "pip install whisper-timestamped==1.15.4 nltk==3.9b1",
         ]
       }
     },
