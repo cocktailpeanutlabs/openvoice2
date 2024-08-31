@@ -50,14 +50,14 @@ module.exports = {
           "pip install gradio==3.50.2 devicetorch",
           //"pip install git+https://github.com/myshell-ai/OpenVoice.git",
 
-          // Need whisper-timestamped 1.15.4 for
-          // [ERROR] Get target tone color error Unexpected situation: missing /Users/x/.cache/torch/hub/snakers4_silero-vad_master 
+          // Need whisper-timestamped 1.15.4 for fixing:
+          // [ERROR] Get target tone color error Unexpected situation: missing snakers4_silero-vad_master 
           "pip install git+https://github.com/peanutcocktail/OpenVoice.git",
           "pip install git+https://github.com/peanutcocktail/MeloTTS.git",
           "python -m unidic download",
           // 1. nltk must be pinned to 3.8.1 because this model uses the pickle format, which is not allowed in 3.9+
-          // 2. Need whisper-timestamped 1.15.4 for
-          // [ERROR] Get target tone color error Unexpected situation: missing /Users/x/.cache/torch/hub/snakers4_silero-vad_master 
+          // 2. Need whisper-timestamped 1.15.4 for fixing:
+          // [ERROR] Get target tone color error Unexpected situation: missing snakers4_silero-vad_master 
           "pip install whisper-timestamped==1.15.4 nltk==3.8.1",
         ]
       }
