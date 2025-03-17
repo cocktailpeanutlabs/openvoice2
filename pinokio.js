@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-  version: "1.5",
+  version: "3.0",
   title: "Openvoice2",
   description: "Openvoice 2 Web UI - A local web UI for Openvoice2, a multilingual voice cloning TTS https://x.com/myshell_ai/status/1783161876052066793",
   icon: "icon.png",
